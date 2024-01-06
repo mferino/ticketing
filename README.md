@@ -2,7 +2,7 @@
 
 A stub hub sort of site that uses microservices
 
-### Installation steps
+### Steps to get things running locally
 
 *Prerequisites*
 
@@ -18,5 +18,13 @@ get things running by installing and running skaffold from root dir (find instal
 ```sh
 # from root directory
 skaffold dev
+```
+
+update hosts file which on mac can be found at `/etc/hosts` and on windows `C:\Windows\System3d\Drivers\etc\hosts`
+
+add for local development
+
+```sh
+127.0.0.1 ticketing.dev
 ```
 
