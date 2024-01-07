@@ -20,11 +20,10 @@ get things running by installing and running skaffold from root dir (find instal
 skaffold dev
 ```
 
-update hosts file which on mac can be found at `/etc/hosts` and on windows `C:\Windows\System3d\Drivers\etc\hosts`
+update hosts file which on mac/linux can be found at `/etc/hosts` and on windows `C:\Windows\System3d\Drivers\etc\hosts` (if you are using WSL be sure to update the host file in windows, editing the /etc/hosts file inside WSL doesn't do anything)
 
 add for local development
 
 ```sh
 127.0.0.1 ticketing.dev
 ```
-
