@@ -16,12 +16,14 @@ router.post(
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
-      return res.status(400).send(errors.array())
+      return res.status(400).send(errors.array());
     }
 
     const { email, password } = req.body;
 
-    // New user({ email, password })
+    console.log("====== creating a user ======");
+
+    res.send({});
   }
 );
 
